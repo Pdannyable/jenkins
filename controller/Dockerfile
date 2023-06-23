@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2*-lts-alpine
+FROM jenkins/jenkins:2.319.2-lts-alpine
 USER root
 RUN apk update && apk -v add bash git docker
 COPY plugins.yaml /tmp/
