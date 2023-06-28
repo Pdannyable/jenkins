@@ -1,46 +1,31 @@
 plugins:
-  - artifactId: blueocean
-    source:
-      version: 1.25.2
-  - artifactId: ansicolor
-    source:
-      version: 1.0.0
-  - artifactId: build-timeout
-    source:
-      version: 1.20
-  - artifactId: pipeline-utility-steps
-    source:
-      version: 2.10.0
-  - artifactId: configuration-as-code
-    source:
-      version: 1.55.1
-  - artifactId: ldap
-    source:
-      version: 2.7
   - artifactId: timestamper
     source:
-      version: 1.13
-  - artifactId: slack
-    source:
-      version: 2.48
-  - artifactId: role-strategy
-    source:
-      version: 3.2.0
-  - artifactId: email-ext
-    source:
-      version: 2.84
-  - artifactId: ssh-agent
-    source:
-      version: 1.23.2
-  - artifactId: docker-workflow
-    source:
-      version: 1.26
-  - artifactId: jira
-    source:
-      version: 3.6
+      version: 1.25
+  - artifactId: configuration-as-code
+  - artifactId: blueocean
   - artifactId: monitoring
-    source:
-      version: 1.88.0
-  - artifactId: build-blocker-plugin
-    source:
-      version: 1.7.3
+  - artifactId: ansicolor
+  - artifactId: ant
+  - artifactId: build-timeout
+  - artifactId: slack
+  - artifactId: pipeline-utility-steps
+  - artifactId: email-ext
+  - artifactId: github-pullrequest
+  - artifactId: docker-workflow
+  - artifactId: global-slack-notifier
+  - artifactId: gradle
+  - artifactId: javadoc
+  - artifactId: jira
+  - artifactId: ldap
+  - artifactId: mailer
+  - artifactId: matrix-auth
+  - artifactId: maven-plugin
+  - artifactId: nexus-artifact-uploader
+  - artifactId: nexus-jenkins-plugin
+  - artifactId: pipeline-build-step
+  - artifactId: prometheus
+  - artifactId: sonar
+  - artifactId: pam-auth
+  - artifactId: sshd
+  - artifactId: ws-cleanup
